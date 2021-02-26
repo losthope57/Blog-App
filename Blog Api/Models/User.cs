@@ -25,5 +25,7 @@ namespace Blog_Api.Models
 
         [Required]
         public string Role { get; set; }
+
+        public virtual ICollection<BlogPost> BlogPosts { get; set; }
     }
 }

@@ -18,4 +18,3 @@ namespace Blog_Api.DTOs.UsersDTOs
         public string Email { get; set; }
     }
 }
-}
